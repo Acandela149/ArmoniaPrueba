@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario de contacto</title>
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+
+    <div class="Toolbar">
+        <div class="Logo">
+            <img src="../../assets/Armonía Logosinnum.jpg" > 
+        </div>
+
+     
+
+        <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+
+    <nav class="nav">
+        <ul class="list">
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="../../assets/home icon silhouette.svg"
+                    width="20px"; 
+                    height: 40px;
+                    class="list__img">
+                    <a href="./../templates/Inicio.html" class="nav__link">Inicio</a>
+                </div>
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <a href="./../templates/Servicios.html" class="nav__link">Servicios Gerontológicos</a>
+                </div>
+            </li>
+
+            <li class="list__item list__item--click">
+                <div class="list__button list__button--click">
+                    <img src="../../assets/camera_photography_icon.svg"
+                    width="20px"; 
+                    height: 40px;
+                    class="list__img">
+                    <a href="./../templates/Fotos.html" class="nav__link">Galeria</a>
+                    <img src="../../assets/proximo.png"
+                    width="20px"; 
+                    height: 40px;
+                    class="list__arrow">
+                </div>
+
+                <ul class="list__show">
+                    <li class="list__inside">
+                        <a href="./../templates/Habitaciones.html" class="nav__link nav__link--inside">Habitaciones</a>
+                    </li>
+
+                    <li class="list__inside">
+                        <a href="#" class="nav__link nav__link--inside">Actividades</a>
+                    </li>
+                </ul>
+
+            </li>
+
+            <li class="list__item">
+                <div class="list__button">
+                    <img src="../../assets/new message.svg"
+                    width="20px"; 
+                    height: 40px;
+                    class="list__img">
+                    <a href="./../Formulario de Contacto/formulario.html" class="nav__link">Contacto</a>
+                </div>
+            </li>
+
+       
+
+        <li class="list__item">
+            <div class="list__button">
+                <img src="../../assets/customer_man_user_account_profile_icon.svg"
+                width="20px"; 
+                height: 40px;
+                class="list__img">
+                <a href="./../templates/SobreNos.html" class="nav__link">Sobre Nosotros</a>
+            </div>
+          </li>
+
+          <li class="list__item list__item--click">
+            <div class="list__button list__button--click">
+                <a href="#" class="nav__link">Redes Sociales</a>
+                <img src="../../assets/proximo.png"
+                width="20px"; 
+                height: 40px;
+                class="list__arrow">
+            </div>
+
+            <ul class="list__show">
+                <li class="list__inside">
+                    <a href="https://www.facebook.com/armonia.holepam" class="nav__link nav__link--inside">Facebook</a>
+                </li>
+         </ul>
+    </nav>
+
+
+    <script src="./../templates/main.js"></script>
+
+
+    <section class="form_wrap">
+
+        <section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>INFORMACION<br>DE CONTACTO</h2>
+            </section>
+            <section class="info_items">
+                <p><span class="fa fa-envelope"></span> Natypoggi@gmail.com <br><br>
+                                                        Salvettiariel05@gmail.com</p>
+                <p><span class="fa fa-mobile"></span> +1(585) 902-8665</p>
+            </section>
+        </section>
+
+        <form action="" class="form_contact">
+            <h2>Envia un mensaje</h2>
+            <div class="user_info">
+                <label for="names">Nombres *</label>
+                <input type="text" id="names">
+
+                <label for="phone">Telefono / Celular</label>
+                <input type="text" id="phone">
+
+                <label for="email">Correo electronico *</label>
+                <input type="text" id="email">
+
+                <label for="mensaje">Mensaje *</label>
+                <textarea id="mensaje"></textarea>
+
+                <input type="button" value="Enviar Mensaje" id="btnSend">
+            </div>
+        </form>
+
+    </section>
+
+</body>
+</html>
